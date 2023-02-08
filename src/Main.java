@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
         }
 
     public static void task1 () {
@@ -50,5 +51,25 @@ public class Main {
         short allPaper = 480;
         int oneChildren = allPaper / (ludPal + annSer + ekaAnd);
         System.out.println("На каждого ученика рассчитано " + oneChildren + " листов бумаги");
+    }
+
+    public static void task4 () {
+        byte machineBattle2Minutes = 16;
+        int machineBattle1Minutes = machineBattle2Minutes / 2;
+        int machineBattle20Minutes = machineBattle1Minutes * 20;
+        System.out.println("За 20 минут машина произвела " + machineBattle20Minutes + " штук бутылок");
+
+        int machineBattleOneDay = machineBattle1Minutes * 1440;
+        System.out.println("За одни сутки машина произвела " + machineBattleOneDay + " штук бутылок");
+
+        int machineBattleThreeDays = machineBattle1Minutes * 4320;
+        System.out.println("За три дня, машина произвела " + machineBattleThreeDays + " штук бутылок");
+
+        int machineBattle1Mans = machineBattle1Minutes * 44640;
+        System.out.println("За месяц, машина произвела " + machineBattle1Mans + " штук бутылок");
+    }
+
+    public static void task5 () {
+
     }
 }
