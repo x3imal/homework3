@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
         }
 
     public static void task1 () {
@@ -70,6 +71,13 @@ public class Main {
     }
 
     public static void task5 () {
-
+        byte allDye = 120;
+        byte oneClasWhite = 2;
+        byte oneClasBrown = 4;
+        int oneClasDye = oneClasBrown + oneClasWhite;
+        int allClasSchool = allDye / oneClasDye;
+        int allClasBrown = allClasSchool * oneClasBrown;
+        int allClasWhite = allClasSchool * oneClasWhite;
+        System.out.println("В школе, где " + allClasSchool + " классов, нужно " + allClasWhite + " банок белой краски и " + allClasBrown + " ,банок коричневой краски");
     }
 }
