@@ -2,7 +2,9 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
         }
+
     public static void task1 () {
         byte cat = -29;
         short mouse = 366;
@@ -17,6 +19,7 @@ public class Main {
         System.out.println("Значние переменной apple c типом float равно " + apple);
         System.out.println("Значние переменной orange c типом double равно " + orange);
     }
+
     public static void task2 () {
         float potato = 27.12F;
         System.out.println(potato);
@@ -38,5 +41,14 @@ public class Main {
 
         byte all = 67;
         System.out.println(all);
+    }
+
+    public static void task3 () {
+        byte ludPal = 23;
+        byte annSer = 27;
+        byte ekaAnd = 30;
+        short allPaper = 480;
+        int oneChildren = allPaper / (ludPal + annSer + ekaAnd);
+        System.out.println("На каждого ученика рассчитано " + oneChildren + " листов бумаги");
     }
 }
