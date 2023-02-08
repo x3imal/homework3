@@ -17,4 +17,26 @@ public class Main {
         System.out.println("Значние переменной apple c типом float равно " + apple);
         System.out.println("Значние переменной orange c типом double равно " + orange);
     }
+    public static void task2 () {
+        float potato = 27.12F;
+        System.out.println(potato);
+
+        long bottle = 987678965549L;
+        System.out.println(bottle);
+
+        double tomato = 2.786;
+        System.out.println(tomato);
+
+        short pan = 569;
+        System.out.println(pan);
+
+        short temp = -159;
+        System.out.println(temp);
+
+        short money = 27897;
+        System.out.println(money);
+
+        byte all = 67;
+        System.out.println(all);
+    }
 }
