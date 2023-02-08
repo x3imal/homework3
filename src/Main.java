@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
         }
 
     public static void task1 () {
@@ -68,8 +69,8 @@ public class Main {
         int machineBattleThreeDays = machineBattle1Minutes * 4320;
         System.out.println("За три дня, машина произвела " + machineBattleThreeDays + " штук бутылок");
 
-        int machineBattle1Mans = machineBattle1Minutes * 44640;
-        System.out.println("За месяц, машина произвела " + machineBattle1Mans + " штук бутылок");
+        int machineBattle1Month = machineBattle1Minutes * 44640;
+        System.out.println("За месяц, машина произвела " + machineBattle1Month + " штук бутылок");
     }
 
     public static void task5 () {
@@ -109,5 +110,21 @@ public class Main {
         System.out.println("Срденее колиество дней для похудения будет - " + averageDayLoseWeight + " дней");
     }
 
-
+    public static void task8 () {
+        int mashaMonth = 67760;
+        int denisMonth = 83690;
+        int crisMonth = 76230;
+        int mashaMonth10 = mashaMonth * 10 /100;
+        int mashaMonthNew = mashaMonth + mashaMonth10;
+        int mashaYearDiff = mashaMonth10 *12;
+        System.out.println("Маша теперь получает " + mashaMonthNew + " рублей. Годовой доход вырос на " + mashaYearDiff + " рублей");
+        int denisMonth10 = denisMonth * 10 / 100;
+        int denisMonthNew = denisMonth + denisMonth10;
+        int denisYearDiff = denisMonth10 * 12;
+        System.out.println("Денис теперь получает " + denisMonthNew + " рублей. Годовой доход вырос на " + denisYearDiff + " рублей");
+        int crisMonth10 = crisMonth * 10 / 100;
+        int crisMonthNew = crisMonth10 + crisMonth;
+        int crisYearDiff = crisMonth10 * 12;
+        System.out.println("Кристина теперь получает " + crisMonthNew + " рублей. Годовой доход вырос на " + crisYearDiff + " рублей");
+    }
 }
