@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
         }
 
     public static void task1 () {
@@ -95,6 +96,18 @@ public class Main {
         System.out.println("Вес всего завтрака " + allGrams + " грамм");
         float allKg = allGrams / 1000F;
         System.out.println("Вес всего завтрака " + allKg + " кг");
-
     }
+
+    public static void task7 () {
+        byte allKgLoseWeight = 7;
+        int allGramsLoseWeight = allKgLoseWeight * 1000;
+        int loseWeightDay250 = allGramsLoseWeight / 250;
+        int loseWeightDay500 = allGramsLoseWeight / 500;
+        System.out.println("При похудении на 250 грамм в день, потребуется " + loseWeightDay250 + " дней");
+        System.out.println("При похудени на 500 грамм в день, потребуется " + loseWeightDay500 + " дней");
+        int averageDayLoseWeight = (loseWeightDay250 + loseWeightDay500) / 2;
+        System.out.println("Срденее колиество дней для похудения будет - " + averageDayLoseWeight + " дней");
+    }
+
+
 }
