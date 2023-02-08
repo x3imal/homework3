@@ -70,7 +70,7 @@ public class Main {
         System.out.println("За три дня, машина произвела " + machineBattleThreeDays + " штук бутылок");
 
         int machineBattle1Month = machineBattle1Minutes * 44640;
-        System.out.println("За месяц, машина произвела " + machineBattle1Month + " штук бутылок");
+        System.out.println("За месяц, машина произвела " + machineBattle1Month + " штук бутылок"); //я взял за 31 день (месяц)
     }
 
     public static void task5 () {
